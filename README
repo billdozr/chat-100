@@ -13,7 +13,7 @@ DEPENDENCIES:
 USAGE:
 =============================
 
-1. Place /chat-100/public/ dir under ~/shared/static, or change 'serve-file' in chat-100.clj to point to location of /chat-100/public/.
+1. Place /public directory under ~/shared/static, or change 'serve-file' in chat-100.clj to point to location of /public parent directory.
 
 2. Run the following functions in REPL:
 
