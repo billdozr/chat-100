@@ -16,7 +16,7 @@ USAGE:
 Run the following in REPL:
 
 (ns chat-100)
-(load-file "/path-to-chat-100-dir/simple_chat.clj")
+(load-file "/path-to-chat-100-dir/chat-100.clj")
 
 Open web browser and go to:
 
