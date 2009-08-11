@@ -1,0 +1,82 @@
+/* simple chat stylesheet */
+body {
+	margin: 0;
+	padding: 0;
+	background: #F6F6F6;
+	font-size: 13px;
+	text-align: justify;
+}
+
+body, th, td, input, textarea, select, option {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #83826A;
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #666666;
+}
+
+h1 {
+	letter-spacing: -2px;
+	font-size: 3em;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	line-height: 200%;
+}
+
+blockquote {
+	margin: 15px 0px;
+ 	padding: 5px 7px 5px 40px;  	
+    font-weight: normal;
+	font-size: 17px;
+	line-height: 1.6em;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;		
+	color: #66A342;
+}
+
+blockquote p, blockquote ul, blockquote ol {
+	line-height: normal;
+	font-style: italic;
+}
+
+a {
+	color: #34BA01;
+}
+
+a:hover {
+	color: #34BA01;
+}
+
+hr {
+	display: none;
+}
+
+#chat {
+    margin: 10px;
+    width: 610px;
+}
+
+#chat #text {
+    width: 450px;
+}
+
+#chat_window {
+    width: 600px;
+    height: 360px;
+    background-color: #fff;
+    overflow: auto;
+    margin-bottom: 10px;
+}
