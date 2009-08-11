@@ -13,12 +13,14 @@ DEPENDENCIES:
 USAGE:
 =============================
 
-Run the following in REPL:
+1. Place /chat-100/public/ dir under ~/shared/static, or change 'serve-file' in chat-100.clj to point to location of /chat-100/public/.
+
+2. Run the following functions in REPL:
 
 (ns chat-100)
 (load-file "/path-to-chat-100-dir/chat-100.clj")
 
-Open web browser and go to:
+3. Open web browser and go to:
 
 http://localhost:8080/chat
 
