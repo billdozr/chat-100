@@ -85,14 +85,14 @@
        (receive-messages-json (Integer. (params :id))))
   (GET "/chat" (chat-controller session))
   (GET "/*" 
-    (or (serve-file "/Users/alen/Documents/clojure_dev/mysrc" (params :*)) :next)) 
+    (or (serve-file "~/shared/static" (params :*)) :next)) 
   (ANY "*" 
     (page-not-found)))
 
 (decorate chatservice       
           (with-session {:type :memory, :expires 600}))
 
-(defserver chat-server {:host "192.168.1.104" :port 8080}
+(defserver chat-server {:port 8080}
   "/*" (servlet chatservice))
 
 (start chat-server)
